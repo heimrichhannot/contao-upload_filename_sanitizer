@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.0.3] - 2017-11-03
+
+### Fixed
+* reverted last change (instead fixed error at [haste plus](https://github.com/heimrichhannot/contao-haste_plus) side)
+
 ## [1.0.2] - 2017-11-03
 
 ### Fixed

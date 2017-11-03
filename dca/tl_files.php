@@ -17,10 +17,6 @@ class tl_files_upload_filename_sanitizer
      */
     public function sanitizeFilename($varValue, $dc)
     {
-        if ($dc->activeRecord->type == 'folder')
-        {
-            return $varValue;
-        }
         return \HeimrichHannot\Haste\Util\Files::sanitizeFileName($varValue);
     }
 }
