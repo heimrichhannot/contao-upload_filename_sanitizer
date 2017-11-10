@@ -2,6 +2,7 @@
 
 namespace HeimrichHannot\UploadFilenameSanitizer;
 
+use Contao\File;
 use HeimrichHannot\Haste\Util\Files;
 use HeimrichHannot\Haste\Util\StringUtil;
 
@@ -18,7 +19,7 @@ class Hooks
     {
         foreach ($arrFiles as $key => $strPath)
         {
-            $objFile = new \File($strPath);
+            $objFile = new File($strPath);
 
             if ($objFile->exists())
             {
