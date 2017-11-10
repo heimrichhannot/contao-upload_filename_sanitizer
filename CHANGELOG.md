@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.0.4] - 2017-11-10
+
+### Fixed
+* german umlauts were not transformed in contao 4 (now uses HastePlus `StringUtil::convertGermanSpecialLetters`)
+
 ## [1.0.3] - 2017-11-03
 
 ### Fixed
